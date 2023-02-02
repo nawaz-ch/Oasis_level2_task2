@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.top{
+    width:100%;
+    height:70px;
+    border: 1px solid #737373;
+    border-left: none;
+    color:white;
+    font-weight: 500;
+    position: sticky;
+    top:0;
+    background-color: #1a1a1a;
+    z-index: 1;
+}
+.top h1{
+    margin:1% 1%;
+}
+.img{
+
+    border:1px solid;
+}
+img{
+    width:100%;
+}
+body{
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+}
+.img h1{
+    color:white;
+    position: absolute;
+    top:15%;
+    right:10%;
+    font-weight: 500;
+    font-size: 30px;
+}
+.img p{
+    color:white;
+    position: absolute;
+    top:20%;
+    right:6%;
+
+}
+.synopsis{
+    padding:5% 0;
+    background-color: black;
+    width:100%;
+    height:300px;
+    color: black;
+}
+.synopsis h1{
+    margin-top: -1%;;
+    color: white;
+    margin-left: 10%;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.synopsis p{
+    color:white;
+    padding:1% 10%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+}
+.synopsis footer{
+    position: relative;
+    color:white;
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+footer a{
+  color: white;
+}
+.quote{
+    width: 100%;
+    height:300px;
+    background-color: #1a1a1a;
+    color:white;
+}
+.quote p{
+    padding: 7% 15%;
+    font-size: 1.8rem;
+    letter-spacing: 5px;
+}
+.quote footer{
+    position: relative;
+    margin-top: -10%;
+    margin-left: 70%;
+    color:white;
+
+}
+.timeline{
+    padding-top: 5%;
+    background-color: black;
+    width:100%;
+    height:900px;
+    color:white;
+    padding-bottom: 5%;
+}
+.timeline h1{
+    color:white;
+    text-align: center;
+    margin-top:2%;
+}
+.timeline ul{
+    color: #737373;
+    margin-top: 5%;
+ display: block;
+ list-style-type: none;
+    
+}
+.timeline ul i{
+    margin-left: 3%;
+    font-size: 18px;
+
+}
+.timeline ul li{
+    padding-top: 2%;
+margin-left:5%;
+font-size: 20px;
+}
+.timeline ul li p{
+    position: relative;
+    margin-left:5%;
+}
+.ending{
+    width:100%;
+    height:100px;
+    text-align: center;
+    font-size: 18px;
+    margin-top:5%;
+    color:#737373;
+}
+
+
